@@ -1,0 +1,12 @@
+{
+  "name": "photopea-automator",
+  "version": "1.0.0",
+  "description": "Automatización de mockups en Photopea con Puppeteer",
+  "main": "automate.js",
+  "scripts": {
+    "start": "node automate.js scripts/crearMockup.js"
+  },
+  "dependencies": {
+    "puppeteer": "^21.3.8"
+  }
+}
